@@ -1,0 +1,22 @@
+.container-ordenacao {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5em;
+}
+
+.container-ordenacao ul {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+.ordenacao_item-lista {
+  color: var(--cinza-medio);
+  font-size: 22px;
+}
+
+.ordenacao-ativo {
+  color: var(--verde-destaque);
+  font-weight: 500;
+  text-decoration: underline;
+}
